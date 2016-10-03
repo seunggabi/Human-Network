@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Active	button.cpp	/^void CButton::Active()$/;"	f	class:CButton
+Add	string.cpp	/^void CString::Add(CString &str)$/;"	f	class:CString
+Add	string.cpp	/^void CString::Add(char chr)$/;"	f	class:CString
+Add	string.cpp	/^void CString::Add(const char * str)$/;"	f	class:CString
+AddList	screen.cpp	/^void CScreen::AddList(CList *t){$/;"	f	class:CScreen
+AddWindow	list.cpp	/^void CList::AddWindow(CWindow *t){$/;"	f	class:CList
+BLUE	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+CBox	box.cpp	/^CBox::CBox(int x, int y, const char * text, CView * v): CWindow(x, y, 30, 50, v) $/;"	f	class:CBox
+CBox	box.h	/^class CBox : public CWindow$/;"	c
+CButton	button.cpp	/^CButton::CButton(int x, int y, int sx, const char * text , CView * v, CBox * b, CScreen * s): CWindow(x, y, sx, 3, v) $/;"	f	class:CButton
+CButton	button.h	/^class CButton : public CWindow$/;"	c
+CCheckBox	checkbox.cpp	/^CCheckBox::CCheckBox(int x, int y, int sx, const char * text, CView * v): CWindow(x, y, sx, 3, v), m_checked(false)$/;"	f	class:CCheckBox
+CCheckBox	checkbox.h	/^class CCheckBox : public CWindow$/;"	c
+CConsole	console.cpp	/^CConsole::CConsole(CView *v)$/;"	f	class:CConsole
+CConsole	console.h	/^class CConsole {$/;"	c
+CController	controller.cpp	/^CController::CController(CView * v)$/;"	f	class:CController
+CController	controller.h	/^class CController{$/;"	c
+CEditBox	editbox.cpp	/^CEditBox::CEditBox(int x, int y, int sx, const char * text, CView * v, CScreen * s): CWindow(x, y, sx, 3, v) $/;"	f	class:CEditBox
+CEditBox	editbox.h	/^class CEditBox : public CWindow$/;"	c
+CList	list.cpp	/^CList::CList(CView * v, CController * c)$/;"	f	class:CList
+CList	list.h	/^class CList{$/;"	c
+CScreen	screen.cpp	/^CScreen::CScreen(CView * v, CController * c)$/;"	f	class:CScreen
+CScreen	screen.h	/^class CScreen{$/;"	c
+CString	string.cpp	/^CString::CString():m_str(0)$/;"	f	class:CString
+CString	string.cpp	/^CString::CString(const char * str)$/;"	f	class:CString
+CString	string.h	/^class CString$/;"	c
+CView	view.cpp	/^CView::CView(){$/;"	f	class:CView
+CView	view.h	/^class CView {$/;"	c
+CWindow	window.cpp	/^CWindow::CWindow(int x, int y, int sx, int sy, CView * v)$/;"	f	class:CWindow
+CWindow	window.h	/^class CWindow{$/;"	c
+CYAN	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+ChangeColor	window.cpp	/^void CWindow::ChangeColor()$/;"	f	class:CWindow
+DrawBox	view.cpp	/^void CView::DrawBox(int x, int y, const char * name, int color, int cnt){$/;"	f	class:CView
+DrawButton	view.cpp	/^void CView::DrawButton(int x, int y, const char * name, int color){$/;"	f	class:CView
+DrawCheckBox	view.cpp	/^void CView::DrawCheckBox(int x, int y, int width, int height, const char * name, bool checked, int color){$/;"	f	class:CView
+DrawEditBox	view.cpp	/^void CView::DrawEditBox(int x, int y, int width, int height, const char * name, int color){$/;"	f	class:CView
+DrawText	view.cpp	/^void CView::DrawText(int x, int y, const char * str, int color){$/;"	f	class:CView
+EraseRect	view.cpp	/^void CView::EraseRect(int x, int y, int width, int height){$/;"	f	class:CView
+GREEN	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+GetChecked	checkbox.cpp	/^bool CCheckBox::GetChecked()$/;"	f	class:CCheckBox
+GetColor	window.cpp	/^int CWindow::GetColor()$/;"	f	class:CWindow
+GetNeighbor	list.cpp	/^CList * CList::GetNeighbor()$/;"	f	class:CList
+GetNeighbor	window.cpp	/^CWindow * CWindow::GetNeighbor()$/;"	f	class:CWindow
+GetSelect	list.cpp	/^CWindow * CList::GetSelect()$/;"	f	class:CList
+GetText	window.cpp	/^const char * CWindow::GetText()$/;"	f	class:CWindow
+GetTextCount	box.cpp	/^int CBox::GetTextCount()$/;"	f	class:CBox
+IsInside	window.cpp	/^bool CWindow::IsInside(int x, int y){$/;"	f	class:CWindow
+KEY_ESC	controller.cpp	10;"	d	file:
+Length	string.cpp	/^int CString::Length()$/;"	f	class:CString
+MAGENTA	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+OnBtn	screen.cpp	/^void CScreen::OnBtn(CList * t)$/;"	f	class:CScreen
+OnChar	editbox.cpp	/^bool CEditBox::OnChar(int c)$/;"	f	class:CEditBox
+OnChar	list.cpp	/^void CList::OnChar(int c)$/;"	f	class:CList
+OnChar	screen.cpp	/^void CScreen::OnChar(int c)$/;"	f	class:CScreen
+OnChar	window.cpp	/^bool CWindow::OnChar(int c)$/;"	f	class:CWindow
+OnMouse	box.cpp	/^bool CBox::OnMouse(int x, int y)$/;"	f	class:CBox
+OnMouse	button.cpp	/^bool CButton::OnMouse(int x, int y)$/;"	f	class:CButton
+OnMouse	checkbox.cpp	/^bool CCheckBox::OnMouse(int x, int y)$/;"	f	class:CCheckBox
+OnMouse	editbox.cpp	/^bool CEditBox::OnMouse(int x, int y)$/;"	f	class:CEditBox
+OnMouse	list.cpp	/^void CList::OnMouse(int x, int y){$/;"	f	class:CList
+OnMouse	screen.cpp	/^void CScreen::OnMouse(int x, int y)$/;"	f	class:CScreen
+OnMouse	window.cpp	/^bool CWindow::OnMouse(int x, int y)$/;"	f	class:CWindow
+RED	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+Rectangle	view.cpp	/^void CView::Rectangle(int x, int y, int width, int height, int color){$/;"	f	class:CView
+SetBox	button.cpp	/^void CButton::SetBox(CBox * b)$/;"	f	class:CButton
+SetButtonLeft	screen.cpp	/^void CScreen::SetButtonLeft(CButton * eb)$/;"	f	class:CScreen
+SetButtonRight	screen.cpp	/^void CScreen::SetButtonRight(CButton * eb)$/;"	f	class:CScreen
+SetColor	window.cpp	/^void CWindow::SetColor(int color){$/;"	f	class:CWindow
+SetEditBoxLeft	screen.cpp	/^void CScreen::SetEditBoxLeft(CEditBox * eb)$/;"	f	class:CScreen
+SetEditBoxRight	screen.cpp	/^void CScreen::SetEditBoxRight(CEditBox * eb)$/;"	f	class:CScreen
+SetNeighbor	list.cpp	/^void CList::SetNeighbor(CList * neighbor)$/;"	f	class:CList
+SetNeighbor	window.cpp	/^void CWindow::SetNeighbor(CWindow *t)$/;"	f	class:CWindow
+SetScreen	window.cpp	/^void CWindow::SetScreen(CScreen * s)$/;"	f	class:CWindow
+SetString	string.cpp	/^void CString::SetString(char chr)$/;"	f	class:CString
+SetString	string.cpp	/^void CString::SetString(const char * str)$/;"	f	class:CString
+SetText	box.cpp	/^void CBox::SetText(const char * t)$/;"	f	class:CBox
+SetText	window.cpp	/^void CWindow::SetText(const char * text)$/;"	f	class:CWindow
+SetTextCount	box.cpp	/^void CBox::SetTextCount(int cnt)$/;"	f	class:CBox
+Show	box.cpp	/^void CBox::Show(){ $/;"	f	class:CBox
+Show	button.cpp	/^void CButton::Show(){ $/;"	f	class:CButton
+Show	checkbox.cpp	/^void CCheckBox::Show(){ $/;"	f	class:CCheckBox
+Show	console.cpp	/^void CConsole::Show(string msg){$/;"	f	class:CConsole
+Show	editbox.cpp	/^void CEditBox::Show(){ $/;"	f	class:CEditBox
+Show	list.cpp	/^void CList::Show()$/;"	f	class:CList
+Show	window.cpp	/^void CWindow::Show(){ $/;"	f	class:CWindow
+ShowAllList	screen.cpp	/^void CScreen::ShowAllList(){$/;"	f	class:CScreen
+ShowAllWindows	list.cpp	/^void CList::ShowAllWindows(){$/;"	f	class:CList
+Start	controller.cpp	/^void CController::Start(CScreen *screen){$/;"	f	class:CController
+ToggleChecked	checkbox.cpp	/^void CCheckBox::ToggleChecked()$/;"	f	class:CCheckBox
+WHITE	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+YELLOW	view.h	/^	static const int RED=1, GREEN=2, YELLOW=3, BLUE=4, MAGENTA=5, CYAN=6, WHITE=7;$/;"	m	class:CView
+_BOX_H	box.h	2;"	d
+_BUTTON_H	button.h	2;"	d
+_CCSTRING_H	string.h	2;"	d
+_CHECKBOX_H	checkbox.h	2;"	d
+_CONSOLE_H	console.h	2;"	d
+_CONTROLLER_H	controller.h	2;"	d
+_EDITBOX_H	editbox.h	2;"	d
+_LIST_H	list.h	2;"	d
+_SCREEN_H	screen.h	2;"	d
+_VIEW_H	view.h	2;"	d
+_WINDOW_H	window.h	2;"	d
+c_str	string.cpp	/^const char * CString::c_str()$/;"	f	class:CString
+color	console.h	/^		int color;$/;"	m	class:CConsole
+curLine	console.h	/^		int curLine;$/;"	m	class:CConsole
+m_box	button.h	/^		CBox * m_box;$/;"	m	class:CButton
+m_btn_left	screen.h	/^		CButton * m_btn_left;$/;"	m	class:CScreen
+m_btn_right	screen.h	/^		CButton * m_btn_right;$/;"	m	class:CScreen
+m_checked	checkbox.h	/^		bool m_checked;$/;"	m	class:CCheckBox
+m_color	window.h	/^		int m_color;$/;"	m	class:CWindow
+m_ctrl	list.h	/^		CController * m_ctrl;$/;"	m	class:CList
+m_ctrl	screen.h	/^		CController * m_ctrl;$/;"	m	class:CScreen
+m_eb_left	screen.h	/^		CEditBox * m_eb_left;$/;"	m	class:CScreen
+m_eb_right	screen.h	/^		CEditBox * m_eb_right;$/;"	m	class:CScreen
+m_height	window.h	/^		int m_width, m_height;$/;"	m	class:CWindow
+m_neighbor	list.h	/^		CList *m_neighbor;$/;"	m	class:CList
+m_neighbor	window.h	/^		CWindow * m_neighbor ;$/;"	m	class:CWindow
+m_posx	window.h	/^		int m_posx, m_posy; $/;"	m	class:CWindow
+m_posy	window.h	/^		int m_posx, m_posy; $/;"	m	class:CWindow
+m_screen	window.h	/^		CScreen * m_screen;$/;"	m	class:CWindow
+m_select	list.h	/^		CWindow *m_select;$/;"	m	class:CList
+m_select	screen.h	/^		CList *m_select;$/;"	m	class:CScreen
+m_start	list.h	/^		CWindow *m_start;$/;"	m	class:CList
+m_start	screen.h	/^		CList *m_start;$/;"	m	class:CScreen
+m_str	string.h	/^		char * m_str;$/;"	m	class:CString
+m_text	console.h	/^		string m_text;$/;"	m	class:CConsole
+m_text	window.h	/^		CString m_text;$/;"	m	class:CWindow
+m_text_count	box.h	/^		int m_text_count;$/;"	m	class:CBox
+m_view	console.h	/^		CView * m_view;$/;"	m	class:CConsole
+m_view	controller.h	/^		CView * m_view;$/;"	m	class:CController
+m_view	list.h	/^		CView *m_view;$/;"	m	class:CList
+m_view	screen.h	/^		CView *m_view;$/;"	m	class:CScreen
+m_view	window.h	/^		CView * m_view;$/;"	m	class:CWindow
+m_width	window.h	/^		int m_width, m_height;$/;"	m	class:CWindow
+main	main.cpp	/^int main(){$/;"	f
+operator +=	string.cpp	/^CString & CString::operator += (CString & str)$/;"	f	class:CString
+operator +=	string.cpp	/^CString & CString::operator += (char chr)$/;"	f	class:CString
+operator +=	string.cpp	/^CString & CString::operator += (const char * str)$/;"	f	class:CString
+operator --	string.cpp	/^CString & CString::operator -- (int n)$/;"	f	class:CString
+operator =	string.cpp	/^CString & CString::operator = (CString & str)$/;"	f	class:CString
+operator =	string.cpp	/^CString & CString::operator = (char chr)$/;"	f	class:CString
+operator =	string.cpp	/^CString & CString::operator = (const char * str)$/;"	f	class:CString
+substr	string.cpp	/^CString CString::substr(int begin, int end)$/;"	f	class:CString
+~CString	string.cpp	/^CString::~CString()$/;"	f	class:CString
+~CView	view.cpp	/^CView::~CView(){$/;"	f	class:CView

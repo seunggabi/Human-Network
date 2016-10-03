@@ -1,0 +1,4 @@
+수정된 내용
+Observer(Listener) 패턴적용하였습니다.
+다음 클래스를 참고하시면 됩니다.
+CMouseListener, CEvent, CComponent, CContainer, CController

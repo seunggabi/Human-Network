@@ -1,0 +1,10 @@
+1.
+지난주에 리스너 부분을 적용하였습니다. 
+교수님께서 배포해주신 mouselistener.cpp를 여러 개의 파일로  쪼개서 
+component, container 에 OnMouseEvent를 만들고 controller에서 OnMouse를 OnMouseEvent로 변경하였습니다.
+새로 구현된 클래스는 CEvent, CMouseListener 두가지 클래스이고 CComponent, CContainer, CController 클래스의 메소드를 변경했습니다.
+겪은 문제로는 마우스 이벤트를 처리하기 위해 어떻게 해야할지 좀 많이 고민했습니다. 좀돼서 그런지 잘 생각은 안 나지만 오류메시지를 처리하기 위해 구글링을 했던게 기억납니다.
+forward declared? 이런 에러, 그리고 마우스 마스크를 검색했던게 기억납니다.
+
+2.
+다음주의 계획은 현재까진 CMenuBar, CMenu로 구성되어있는데 오늘 교수님께서 알려주신 CMenuBar, CMenu, CMenuItem 이런 3단계로 구분하려고 합니다. 그리고 CBox를 이용하여 클릭된 객체를 나타내주고자 합니다. 시간이 얼마 남지않아 구현할 수 없을지 모르지만 열심히 해보겠습니다.!
